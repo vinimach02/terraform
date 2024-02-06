@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("key-lab-gke.json")
+  //credentials = file("key-lab-gke.json")
   project     = var.project
   region      = "us-central1"
   zone        = "us-central1-c"
